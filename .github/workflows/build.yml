@@ -6,9 +6,9 @@ name: build
 # Focuses on the master branch only
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 # Create one single job
 # This job performs all necessary checks
@@ -19,7 +19,7 @@ jobs:
     strategy:
       matrix:
         # Performs all actions on different versions of Python
-        python-version: ["3.10"]
+        python-version: ["3.11"]
         os: [ubuntu-latest]
     # Define the workflow steps
     steps:
