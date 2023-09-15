@@ -45,23 +45,25 @@ steps:
 - Make sure that you have already installed and know how to use all of the
   programming tools that are mentioned in the description of the [Proactive
   Skills](https://proactiveprogrammers.com/proactive-skills/technical-skills/introduction-technical-skills/).
-- Follow the instructions on the Proactive Programmers web site for this project
-  to take all of the needed steps and to complete all of the required
-  deliverables.
 - Use the `cd` command to change into the directory for this repository.
+- At this point, run `gatorgrade --config config/gatorgrade.yml` and check whether
+the output matches the gatorgrade output reported in GitHub actions.
+  - if they do not match:
+    - create a virtual environment in your local directory!
+    - run `python -m venv ./.venv`
+    - run `source .venv/bin/activate`
+    - rerun and recheck the local gatorgrade output report for a match with GitHub actions!
 - Change into the program source code directory by typing `cd source`.
-- Run both of the provided Python scripts by typing the following:
+- Run the provided Python scripts by typing the following:
   - `python determine-even-odd.py`: demonstrate computation with integer values and modular arithmetic
   - `python floating-point-confusion.py`: demonstrate computation with floating-point values
+  - `python type-annotation.py`: practice thinking about and using type annotations
+- Follow the
+  [instructions](https://proactiveprogrammers.com/data-abstraction/source-code-surveys/numerical-data/) on the Proactive Programmers web site for this project
+  to take all of the needed steps and to complete all of the required
+  deliverables.
 - Confirm that the programs are producing the expected output.
 - Make sure that you can explain why the programs produce the output that they do.
-- If you have already installed the
-  [GatorGrade](https://github.com/GatorEducator/gatorgrade) program that runs
-  the automated grading checks provided by
-  [GatorGrader](https://github.com/GatorEducator/gatorgrader) you can, from the
-  repository's base directory, run the automated grading checks by typing
-  `gatorgrade --config config/gatorgrade.yml`.
-- You may also review the output from running GatorGrader in GitHub Actions.
 - Don't forget to provide all of the required responses to the technical writing
   prompts in the `writing/reflection.md` file.
 - Please make sure that you completely delete the `TODO` markers and their
