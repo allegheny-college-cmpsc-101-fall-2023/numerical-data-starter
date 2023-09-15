@@ -11,41 +11,31 @@
 
 ## Introduction
 
-If you are a student completing this project as part of a class at Allegheny
-College, please check the [Proactive Programmers Discord
-server](https://discord.gg/kjah8MFYbR) for the assignment's due date. You can
-learn more about this assignment by reading the [Numerical
-Data](https://proactiveprogrammers.com/data-abstraction/source-code-surveys/numerical-data/)
-project description on the [Proactive Programmers web
-site](https://proactiveprogrammers.com). Please note that the content provided
-in the README file for this GitHub repository is an overview of the project and
-thus does not include the details concerning all the steps needed to
-successfully complete the every project deliverable. Finally, it is important
-to point out that your repository for this project was created from the GitHub
-repository template called
-[numerical-data-starter](https://github.com/ProactiveProgrammers/numerical-data-starter).
-You can check this repository for any updates to this project's documentation
-or source code.
+- Due date: Check the [Proactive Programmers Discord
+server](https://discord.gg/kjah8MFYbR).
+- This assignment will be submitted on GitHub following
+the expectations in the syllabus on
+[Assignment Submission](https://github.com/allegheny-college-cmpsc-101-fall-2023/course-materials#assignment-submission).
+- To begin, read this `README` and the Proactive Programmers' project
+description for
+[Numerical Data](https://proactiveprogrammers.com/data-abstraction/source-code-surveys/numerical-data/)
+- This assignment is a Source Code Survey and will be evaluated as
+described in the
+[Assessment Strategies](https://proactiveprogrammers.com/proactive-learning/assessment-strategy/#source-code-surveys)
 
 ## Seeking Assistance
 
-Even though the course instructor will have covered all of the concepts central
-to this project before you start to work on it, please note that not every
-detail needed to successfully complete the assignment will have been covered
-during prior classroom sessions. This is by design as an important skill that
-you must practice as a proactive programmer is to search for and then understand
-and ultimately apply the technical content found in additional resources.
+Please review the course expectations on the syllabus about
+[Seeking Assistance](https://github.com/allegheny-college-cmpsc-101-fall-2023/course-materials#seeking-assistance).
+Students are reminded
+to uphold the Honor Code. Cloning the assignment repository is a
+commitment to the latter.
 
-Emerging proactive programmers who have questions about this project are invited
-to ask them in either the [GitHub discussions
-forum](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/discussions)
-or the [Proactive Programmers Discord server](https://discord.gg/kjah8MFYbR).
-Before you ask your question, please read the advice concerning how to best
-participate in the [Proactive Programmers
-community](https://proactiveprogrammers.com/proactive-community/community-connections/).
-If you find a mistake in this project, please describe it and propose a solution
-by creating an issue in the [GitHub Issue
-Tracker](https://github.com/ProactiveProgrammers/www.proactiveprogrammers.com/issues).
+For this assignment, you may use class materials, textbooks, notes, and the
+internet. However,
+when asked to write "in your own words", you must use _your own_ words.
+
+Post questions to the [Proactive Programmers Discord server](https://discord.gg/kjah8MFYbR).
 
 ## Project Overview
 

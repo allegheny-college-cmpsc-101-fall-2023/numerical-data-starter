@@ -20,6 +20,16 @@
         count: 5
         exact: false
 
+- source/type-annotation.py:
+    - description: Ensure that type-annotation.py file exists in the source/ directory
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers, and add comments for type-annotation.py
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+
 - source/floating-point-confusion.py:
     - description: Ensure that floating-point-confusion.py file exists in the source/ directory
       check: ConfirmFileExists
@@ -73,13 +83,13 @@
       check: CountMarkdownTags
       options:
         tag: heading
-        count: 11
+        count: 14
         exact: false
     - description: Confirm that the markdown file has the correct number of fenced code blocks
       check: CountMarkdownTags
       options:
         tag: code_block
-        count: 3
+        count: 4
         exact: false
 
 # run the program and confirm the existence of fragments in its output
@@ -96,6 +106,15 @@
   options:
     command: "python source/floating-point-confusion.py"
     count: 3
+    exact: true
+
+# run the program and confirm the existence of fragments in its output
+- description: "Run the program and confirm the existence of content in its output: the mean of the ints in the list is..."
+  check: MatchCommandFragment
+  options:
+    command: "python source/type-annotation.py"
+    fragment: "the mean of the ints in the list is: "
+    count: 1
     exact: true
 
 # run the program and confirm the existence of fragments in its output
@@ -137,4 +156,4 @@
 - description: Have at least a specific minimum of commits in repository
   check: CountCommits
   options:
-    count: 10
+    count: 7

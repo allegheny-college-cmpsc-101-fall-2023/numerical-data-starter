@@ -27,21 +27,27 @@ TODO: Use a fenced code block to provide the output for this command.
 
 - `python floating-point-confusion.py`
 
+### What is the output from running the following command?
+
+TODO: Use a fenced code block to provide the output for this command.
+
+- `python compute-mean.py`
+
 ## Program Understanding
 
-#### What is the purpose of the `%` operator in a Python program?
+### What is the purpose of the `%` operator in a Python program?
 
 TODO: Provide a one-paragraph response to this question.
 
-#### What are the inputs and outputs of the `determine_even_odd` function?
+### What are the inputs and outputs of the `determine_even_odd` function?
 
 TODO: Provide a one-paragraph response to this question.
 
-#### Does the computation `10.0 * 0.1` produce the value of `1.0`? Why?
+### Does the computation `10.0 * 0.1` produce the value of `1.0`? Why?
 
 TODO: Provide a one-paragraph response to this question.
 
-#### Does the `for` loop in the `floating-point-confusion` produce the value of `1.0`? Why or why not?
+### Does the `for` loop in the `floating-point-confusion` produce the value of `1.0`? Why or why not?
 
 TODO: Provide a one-paragraph response to this question.
 
@@ -52,6 +58,15 @@ for _ in range(10):
     number = number + 0.1
 ```
 
-#### How does running the source code in this project differ from running the same code in a Jupyter notebook?
+### How does running the source code in this project differ from running the same code in a Colab notebook or in the Integer Square Engineering Effort?
+
+TODO: Provide a one-paragraph response to this question.
+
+### Examples of function definitions with type annotation
+
+TODO: Use a fenced code block to provide what the function definitions
+would look like with type annotations in the file type-annotation.py
+
+### What are the benefits and downsides associated with using type annotations?
 
 TODO: Provide a one-paragraph response to this question.
