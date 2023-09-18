@@ -76,7 +76,8 @@ the output matches the gatorgrade output reported in GitHub actions.
   - `python floating-point-confusion.py`: demonstrate computation with floating-point values
   - `python type-annotation.py`: practice thinking about and using type annotations
 - Follow the
-  [instructions](https://proactiveprogrammers.com/data-abstraction/source-code-surveys/numerical-data/) on the Proactive Programmers web site for this project
+  [instructions](https://proactiveprogrammers.com/data-abstraction/source-code-surveys/numerical-data/)
+  on the Proactive Programmers web site for this project
   to take all of the needed steps and to complete all of the required
   deliverables.
 - Confirm that the programs are producing the expected output.
